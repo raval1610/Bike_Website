@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Royal enfield</title>
+    <link rel="shortcut icon" href="../IMAGES/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../CSS/royalefield.css" />
+  </head>
+  <body>
+    <div class="container" id="bike">
+      <nav>
+        <img src="../IMAGES/all_brands/Royal_Enfield.png" class="logo" />
+        <a href="#" class="btn">Test Drive</a>
+      </nav>
+      <div class="content">
+        <h2>The Royal Enfield</h2>
+        <h1>Hunter 350</h1>
+        <p>
+          The Hunter 350 is a street roadster from Royal Enfield based on the
+          new J-platform. It is the most affordable Royal Enfield motorcycle in
+          India and is targeted towards younger and first-time buyers and female
+          riders.
+        </p>
+        <h3>Choose your Color</h3>
+        <div class="color-select">
+          <div id="blue"></div>
+          <div id="red"></div>
+          <div id="silver"></div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let redBtn = document.getElementById("blue");
+      let blueBtn = document.getElementById("red");
+      let blackBtn = document.getElementById("silver");
+      let bike = document.getElementById("bike");
+
+      redBtn.onclick = function () {
+        bike.style.backgroundImage = "url(/IMAGES/all_brands/re1.jpg)";
+      };
+
+      blueBtn.onclick = function () {
+        bike.style.backgroundImage = "url(/IMAGES/all_brands/re2.jpg)";
+      };
+
+      blackBtn.onclick = function () {
+        bike.style.backgroundImage = "url(/IMAGES/all_brands/re3.jpg)";
+      };
+    </script>
+  </body>
+</html>

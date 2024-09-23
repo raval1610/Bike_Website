@@ -1,0 +1,196 @@
+:root {
+  --color: white;
+  --background-color-h: #7d0a0a;
+  --background-color-f: #bf3131;
+  --background-color-n: #f99b7d;
+}
+.bg {
+  background-image: url("../IMAGES/sign.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: bisque;
+}
+div.nav {
+  background-color: rgb(55, 55, 55);
+  border-style: none;
+  margin: 2px;
+  margin-left: 2%;
+  padding: 0px;
+  position: fixed;
+  top: 0;
+  margin-top: 10px;
+}
+.n1:link,
+.n1:visited {
+  background-color: rgb(55, 55, 55);
+  text-align: center;
+  text-decoration: none;
+  padding: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  color: var(--color);
+}
+.n1:hover,
+.n1:active {
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+}
+.form {
+  width: 510px;
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-bottom: 30px;
+  background: transparent;
+  border: 2px solid gray;
+  backdrop-filter: blur(20px);
+  color: #fff;
+  border-radius: 20px;
+  padding: 30px 40px;
+}
+
+#head {
+  text-align: center;
+  color: gray;
+  font-size: x-large;
+}
+.inp {
+  margin: 2px;
+  margin-top: 6px;
+
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 70px;
+  border: 1px;
+  border: 3px solid rgb(97, 97, 97);
+  border-radius: 20px;
+  color: gray;
+  background: transparent;
+}
+#in7 {
+  padding-right: 120px;
+}
+.lab1 {
+  text-align: center;
+}
+.btnc {
+  width: 20%;
+  height: 35px;
+  background: rgb(203, 201, 201);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgb(153, 148, 148);
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+#btn {
+  margin-left: 143px;
+  margin-right: 15px;
+}
+link1 {
+  text-align: center;
+}
+.dropbtn {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 8px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  /* align: center; */
+}
+li {
+  list-style: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-right: 0px;
+  right: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3c3c3c;
+  min-width: 100px;
+  margin-left: 8.4px;
+  margin-right: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center;
+  /* float: left; */
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #909090;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: rgb(50, 50, 50);
+}
+#txt {
+  text-align: center;
+}
+.lab2 {
+  margin-left: 50%;
+  margin: 2px;
+  margin-top: 0px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  border: 1px;
+  border: 3px solid rgb(97, 97, 97);
+  border-radius: 20px;
+  color: gray;
+  background: transparent;
+  display: inline;
+}
+/* #l17 {
+  float: right;
+} */
+.lab3 {
+  width: 180px;
+  margin-left: 340px;
+  margin-bottom: 0px;
+  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px;
+  border: 3px solid rgb(97, 97, 97);
+  border-radius: 20px;
+  color: gray;
+  background: transparent;
+  display: inline-block;
+  /* float: right; */
+}
+#in13 {
+  width: 175px;
+  margin-top: 0px;
+  margin-left: 0px;
+}

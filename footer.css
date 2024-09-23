@@ -1,0 +1,137 @@
+footer {
+  background-color: var(--background-color-f);
+  padding: 50px 0;
+  padding-bottom: 0px;
+}
+.fc {
+  width: 25%;
+  padding: 0 15px;
+  padding-bottom: 50px;
+}
+.fc h4 {
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+  position: relative;
+}
+.fc h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: rgb(255, 255, 255);
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+  width: 100px;
+  height: 5px;
+  background: #ffffff;
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+}
+.fc ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.fc ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+}
+.footer ul li a:hover {
+  color: #ffffff;
+  padding-left: 10px;
+}
+#cr {
+  background-color: var(--background-color-h);
+  text-align: left;
+  margin-top: 15px;
+  margin-left: 0px;
+  margin-bottom: 8px;
+  margin-right: 0px;
+  padding: 16px;
+  color: white;
+}
+form {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: var(--background-color-n);
+  margin-bottom: 50px;
+  background-color: var(--background-color-h);
+  padding-bottom: 1px;
+  color: #f99b7d;
+  padding-left: 3px;
+  padding: 3px;
+  margin-right: 0px;
+}
+.btn {
+  background-color: var(--background-color-h);
+  color: var(--background-color-h);
+}
+form .fa-solid {
+  font-size: 18px;
+  margin-right: 10px;
+}
+#in1 {
+  width: 100%;
+  background: transparent;
+  color: white;
+  border: 0;
+  outline: none;
+}
+form button .fa-solid fa-arrow-right {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--background-color-n);
+  padding: 4px;
+}
+.social-icons .fa-brands {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: var(--background-color-h);
+  background: var(--background-color-n);
+  margin-right: 15px;
+  cursor: pointer;
+}
+.underline {
+  width: 100px;
+  height: 5px;
+  background-color: var(--background-color-h);
+  border-radius: 3px;
+  position: absolute;
+  top: 25px;
+  left: 0;
+}
+.underline span {
+  width: 15px;
+  height: 100%;
+  background-color: var(--background-color-n);
+  border-radius: 3px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  animation: moving 2s linear infinite;
+}
+@keyframes moving {
+  0% {
+    right: -20px;
+  }
+  0% {
+    right: 100%;
+  }
+}
